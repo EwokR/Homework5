@@ -15,7 +15,6 @@ public class Main {
         falloutNumeralGames[2] = 3;
         falloutNumeralGames[3] = 4;
         // Задание №2
-        {
             for (int i = 0; i < numbers.length; i++) {
                 if (i == numbers.length - 1) {
                     System.out.print(numbers[i]);
@@ -23,9 +22,7 @@ public class Main {
                     System.out.print(numbers[i] + ", ");
                 }
             }
-        }
         System.out.println();
-        {
             for (int i = 0; i < fractionalNumbers.length; i++) {
                 if (i == fractionalNumbers.length - 1) {
                     System.out.print(fractionalNumbers[i]);
@@ -33,10 +30,7 @@ public class Main {
                     System.out.print(fractionalNumbers[i] + ", ");
                 }
             }
-        }
-
         System.out.println();
-        {
             for (int i = 0; i < falloutNumeralGames.length; i++) {
                 if (i == falloutNumeralGames.length - 1) {
                     System.out.print(falloutNumeralGames[i]);
@@ -44,10 +38,8 @@ public class Main {
                     System.out.print(falloutNumeralGames[i] + ", ");
                 }
             }
-        }
         // Задание №3
         System.out.println();
-        {
             for (int i = numbers.length -1; i >= 0; i--) {
                 if (i == 0) {
                     System.out.print(numbers[i]);
@@ -55,7 +47,6 @@ public class Main {
                     System.out.print(numbers[i] + ", ");
                 }
             }
-        }
         System.out.println();
         {
         for (int i = fractionalNumbers.length -1; i >=0; i--) {
@@ -80,7 +71,9 @@ public class Main {
         System.out.println();
         for (int i = 0; i<numbers.length; i ++){
             if ( numbers[i] % 2 != 0) {
-                System.out.print(numbers[i] +1 + " ");
+                System.out.print(numbers[i] + 1 + " ");
+            }else {
+                System.out.print(numbers[i] + " ");
             }
         }
     }
